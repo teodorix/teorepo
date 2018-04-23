@@ -3,6 +3,7 @@
 	$USER = $_SESSION['loguser'];
 }
 else {
+	echo "test";
 	echo "not authorized";
 	die();
 }
